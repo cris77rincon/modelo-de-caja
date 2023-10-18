@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-color: rgb(214, 203, 182);
+    width: 90%;
+    max-width:  1000px;
+    
+    margin: auto;
+    position: relative;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1rem;}
+    /**inicio encabezado**/
+header{
+    width: 100%;
+    background-color: rgb(48, 143, 172);
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+
+    header #logo{
+        width: 80px;
+        height: 80px;
+        background-color: violet;
+        border-radius: 10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5 rem  }
+        #logo:hover {
+            background-color: coral;
+        }
+        #logo:active{
+            background-color: darkblue;
+        }
+           header nav{ 
+        width: 50%;
+        height: 80px;
+        background-color: violet;
+        border-radius: 10px ;
+        line-height: 3rem;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+    nav:hover {
+        background-color: coral;
+    }
+    nav:active{
+        background-color: darkblue;
+    }
+main{
+    background-color: rgb(16, 173, 221);
+    margin: 0.5rem;
+    border-radius: 10px;
+    width: 70%;
+    padding: 1rem;
+
+}
+main section{
+    background-color: rgb(48, 143, 172);
+    border-radius: 5px;
+    width: 99%;
+    margin: 0.5rem;
+    padding: 1rem;
+    
+}
+main section article{
+    background-color: violet;
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 1rem;
+   
+   
+}
+
+article:hover {
+    background-color: rgb(89, 208, 238);
+}
+article:active{
+    background-color: darkblue;
+}
+aside{
+    
+   
+    background-color: rgb(48, 143, 172);
+    width: 200px;
+    height: 229px;
+    position: absolute;
+    right: 30px;
+    bottom: 90px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 3rem;
+}
+#pertem{
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-top: 40px;
+   
+}
+footer{
+    background-color: rgb(80, 109, 117);
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pertem:hover {
+    background-color: coral;
+}
+#pertem:active{
+    background-color: darkblue;
+}
